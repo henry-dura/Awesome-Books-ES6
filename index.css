@@ -1,137 +1,136 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-size: 1.2rem;
-    padding: 12px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-    padding: 0 12px;
-  }
-  
-  hr {
-    height: 120%;
-    width: 3px;
-    background: #000;
-  }
-  
-  nav > ul {
-    list-style-type: none;
-    display: flex;
-    gap: 12px;
-    align-items: center;
-  }
-  
-  nav > ul > li:hover {
-    cursor: pointer;
-    color: aqua;
-  }
-  
-  nav > p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.4rem;
-  }
-  
-  .date {
-    text-align: right;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  h1,
-  h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 2px solid black;
-    margin-bottom: 30px;
-    font-size: 1.2rem;
-  }
-  
-  td {
-    padding: 8px;
-  }
-  
-  tr:nth-child(odd) {
-    background-color: #ddd;
-  }
-  
-  .remove {
-    background: red;
-    color: rgb(98, 31, 31);
-    font-size: 1.2rem;
-    border-radius: 8px;
-  }
-  
-  #add {
-    align-self: flex-end;
-    background: green;
-    color: #fff;
-    padding: 4px 12px;
-    border-radius: 5px;
-    font-size: 1.4rem;
-  }
-  
-  .remove:hover,
-  #add:hover {
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  
-  .line {
-    height: 5px;
-    border-radius: 5px;
-    width: 20%;
-    background: #000;
-    margin: 5px auto;
-  }
-  
-  .input-field {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 0 auto;
-  }
-  
-  input {
-    width: 100%;
-    font-size: 1.2rem;
-  }
-  
-  h2 {
-    align-self: center;
-  }
-  
-  .contact p {
-    text-align: center;
-  }
-  
-  .contact > ul {
-    display: table;
-    margin: 0 auto;
-  }
-  
-  .contact h2 {
-    text-align: center;
-  }
-  
-  footer {
-    border: 2px solid #000;
-    position: fixed;
-    bottom: 2%;
-    width: 100%;
-    text-align: center;
-    font-style: italic;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+  padding: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 0 12px;
+}
+
+hr {
+  height: 120%;
+  width: 3px;
+  background: #000;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+nav > ul > li:hover {
+  cursor: pointer;
+  color: aqua;
+}
+
+nav > p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4rem;
+}
+
+.date {
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.remove {
+  background: red;
+  color: rgb(98, 31, 31);
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+#add {
+  align-self: flex-end;
+  background: green;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
+.remove:hover,
+#add:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.line {
+  height: 5px;
+  border-radius: 5px;
+  width: 20%;
+  background: #000;
+  margin: 5px auto;
+}
+
+.input-field {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+h2 {
+  align-self: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+.contact > ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+footer {
+  border: 2px solid #000;
+  position: fixed;
+  bottom: 2%;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
