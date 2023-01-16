@@ -1,11 +1,11 @@
-export const listLink = document.querySelector(".list-link");
+const listLink = document.querySelector(".list-link");
 const inputField = document.querySelector(".input-field");
-export const addLink = document.querySelector(".add-link");
+const addLink = document.querySelector(".add-link");
 const books = document.querySelector(".books");
 const contact = document.querySelector(".contact");
-export const contactLink = document.querySelector(".contact-link");
+const contactLink = document.querySelector(".contact-link");
 
-class Navigation {
+export class Navigation {
   static listDisplay() {
     books.style.display = "block";
     contact.style.display = "none";
