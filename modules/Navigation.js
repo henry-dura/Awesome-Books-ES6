@@ -5,7 +5,7 @@ const books = document.querySelector(".books");
 const contact = document.querySelector(".contact");
 export const contactLink = document.querySelector(".contact-link");
 
-export default class Navigation {
+class Navigation {
   static listDisplay() {
     books.style.display = "block";
     contact.style.display = "none";
@@ -22,3 +22,12 @@ export default class Navigation {
     books.style.display = "none";
   }
 }
+
+
+const navLink = () =>{
+    addLink.addEventListener('click', Navigation.addDisplay);
+    contactLink.addEventListener('click', Navigation.contactDisplay);
+    listLink.addEventListener('click', Navigation.listDisplay);
+};
+
+export default navLink;

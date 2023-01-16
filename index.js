@@ -1,13 +1,13 @@
 import Book,{bookList,bookTable} from './modules/Book-Methods.js';
-import Navigation,{listLink,addLink,contactLink} from './modules/Navigation.js';
+import navLink from './modules/Navigation.js';
 
 
-addLink.addEventListener('click', Navigation.addDisplay);
-contactLink.addEventListener('click', Navigation.contactDisplay);
-listLink.addEventListener('click', Navigation.listDisplay);
+// addLink.addEventListener('click', Navigation.addDisplay);
+// contactLink.addEventListener('click', Navigation.contactDisplay);
+// listLink.addEventListener('click', Navigation.listDisplay);
 
 
-
+navLink();
 // triggered immediately the page loads
 document.addEventListener('DOMContentLoaded', () => {
     Book.loadBooksInStorage();
