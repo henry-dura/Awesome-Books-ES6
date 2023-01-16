@@ -4,6 +4,7 @@ const addLink = document.querySelector('.add-link');
 const books = document.querySelector('.books');
 const contact = document.querySelector('.contact');
 const contactLink = document.querySelector('.contact-link');
+const dateShow = document.querySelector('.date'); // selector for date display
 
 export class Navigation {
   static listDisplay() {
