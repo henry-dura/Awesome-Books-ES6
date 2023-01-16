@@ -1,13 +1,11 @@
-import addBook,{Book} from './modules/Book-Methods.js';
-import navLink,{Navigation} from './modules/Navigation.js';
-
+import addBook, { Book } from './modules/Book-Methods.js';
+import navLink, { Navigation } from './modules/Navigation.js';
 
 navLink();
 addBook();
 // triggered immediately the page loads
 document.addEventListener('DOMContentLoaded', () => {
-    Book.loadBooksInStorage();
-    Navigation.listDisplay();
-    currentDate();
-  });
-  
+  Book.loadBooksInStorage();
+  Navigation.listDisplay();
+  currentDate();
+});
